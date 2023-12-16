@@ -18,6 +18,20 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="lab_1\task_1\source.cpp" />
+    <ClCompile Include="lab_1\task_2\main.cpp" />
+    <ClCompile Include="lab_1\task_2\ReadPeronsName.cpp" />
+    <ClCompile Include="lab_1\task_2\ReadPersonAge.cpp" />
+    <ClCompile Include="lab_1\task_2\ReadPersonData.cpp" />
+    <ClCompile Include="lab_1\task_2\ReadPersonHeight.cpp" />
+    <ClCompile Include="lab_1\task_2\ReadPersonSalary.cpp" />
+    <ClCompile Include="lab_1\task_2\ReadPersonWeight.cpp" />
+    <ClCompile Include="lab_1\task_2\WritePersonData.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="lab_1\task_2\Header.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
@@ -126,9 +140,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="main.cpp" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

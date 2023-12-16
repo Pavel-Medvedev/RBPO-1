@@ -41,6 +41,7 @@ void ReadPersonData(string& name, unsigned short& age, unsigned short& height, u
 /*
 Medvedev 21 100500 Pavel 21 999 99
 */
+#ifndef DO_NOT_DEFINE_MAIN
 int main() {
 	string name = "";
 	unsigned short age = 0, weight = 0;
@@ -51,3 +52,4 @@ int main() {
 	WritePersonData(name, &age, to_string(height), to_string(weight), to_string(salary));
 	return 0;
 }
+#endif
